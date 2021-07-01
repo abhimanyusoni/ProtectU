@@ -2303,6 +2303,7 @@ body {
   }
   .protectU_main .screens::before {
     width: 12px;
+    top: 1200px;
   }
   .protectU_main .wireframes::before {
     width: 100px;
