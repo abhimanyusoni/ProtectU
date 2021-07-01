@@ -2304,6 +2304,21 @@ body {
   .protectU_main .screens::before {
     width: 12px;
   }
+  .protectU_main .wireframes::before {
+    width: 100px;
+    height: 100px;
+    right: 15px;
+  }
+  .protectU_main .wireframes::after {
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 10px;
+  }
+  .protectU_main .wireframes .row::before {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 360px) {
