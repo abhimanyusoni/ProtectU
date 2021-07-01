@@ -1018,6 +1018,10 @@ body {
   margin-bottom: 50px;
 }
 
+.protectU_main .screens .row > div img {
+  pointer-events: none;
+}
+
 .protectU_main .screens .row > div:last-child {
   margin-bottom: 0;
 }
@@ -2080,6 +2084,9 @@ body {
   }
   .protectU_main .screens .row > div {
     margin-bottom: 30px;
+  }
+  .protectU_main .screens .row > div img {
+    pointer-events: all;
   }
   .protectU_main .screens .row .col-md-6:last-child img {
     padding-bottom: 48px;

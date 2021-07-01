@@ -900,6 +900,8 @@ body{
             & > div{
                 margin-bottom: 50px;
 
+                img{pointer-events: none;}
+
                 &:last-child{
                     margin-bottom: 0;
                 }
@@ -1219,6 +1221,7 @@ body{
     .protectU_main .features .featured_one_outer .featureinfo .plans .planone{width: 130px;}
     .protectU_main .screens .row .col-md-6 img {border-radius: 35px;border: 14px solid #D0D2D3;}
     .protectU_main .screens .row > div{margin-bottom: 30px;}
+    .protectU_main .screens .row > div img{pointer-events: all;}
     .protectU_main .screens .row .col-md-6:last-child img {padding-bottom: 48px;}
     .protectU_main .typography .body_cont, .protectU_main .typography .headline{text-align: center;}
     .protectU_main .typography .body_cont{margin: 20px 0 30px 0;}
