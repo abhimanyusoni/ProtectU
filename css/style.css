@@ -2262,6 +2262,9 @@ body {
   .protectU_main .typography .colors .color_one {
     margin: 10px 10px !important;
   }
+  .protectU_main .icons .specs_third_party .specs_one p {
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2279,7 +2282,8 @@ body {
     top: 0;
   }
   .protectU_main .screens::after {
-    width: 18px;
+    width: 15px;
+    top: 10px;
   }
   .protectU_main .typography .coomon_heading, .protectU_main .wireframes .coomon_heading, .protectU_main .screens .coomon_heading {
     margin-bottom: 25px;
@@ -2293,6 +2297,9 @@ body {
   .protectU_main .icons .specs_third_party .col-md-6 .coomon_heading {
     font-size: 16px;
     margin-bottom: 18px;
+  }
+  .protectU_main .screens::before {
+    width: 12px;
   }
 }
 

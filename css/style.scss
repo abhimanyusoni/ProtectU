@@ -1275,6 +1275,7 @@ body{
     .protectU_main .features .featured_one_outer.last{margin-top: 30px;}
     .protectU_main .typography .letters{max-width: 100%;}
     .protectU_main .typography .colors .color_one{margin: 10px 10px !important;}
+    .protectU_main .icons .specs_third_party .specs_one p{line-height: 24px;}
     
 }
 
@@ -1282,11 +1283,12 @@ body{
     .protectU_main .offers .img_wrapper::after{top: 5px; width: 45px; height: 45px;}
     .protectU_main .offers .content_area{padding: 0;}
     .protectU_main .features .featured_one_outer .img_wrpper::after{width: 100px; height: 50px; top: 0;}
-    .protectU_main .screens::after{width: 18px;}
+    .protectU_main .screens::after{width: 15px; top: 10px;}
     .protectU_main .typography .coomon_heading, .protectU_main .wireframes .coomon_heading, .protectU_main .screens .coomon_heading{margin-bottom: 25px;}
     .protectU_main .icons{padding-top: 30px;}
     .protectU_main .icons .coomon_heading{margin-bottom: 35px;}
     .protectU_main .icons .specs_third_party .col-md-6 .coomon_heading{font-size: 16px; margin-bottom: 18px;}
+    .protectU_main .screens::before {width: 12px;}
 }
 
 @media (max-width: 360px){
